@@ -1,0 +1,14 @@
+C:\Project\ContactManage1\ContactManage.Repository\bin\Debug\net8.0\ContactManage.Repository.deps.json
+C:\Project\ContactManage1\ContactManage.Repository\bin\Debug\net8.0\ContactManage.Repository.runtimeconfig.json
+C:\Project\ContactManage1\ContactManage.Repository\bin\Debug\net8.0\ContactManage.Repository.dll
+C:\Project\ContactManage1\ContactManage.Repository\bin\Debug\net8.0\ContactManage.Repository.pdb
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\ContactManage.Repository.csproj.AssemblyReference.cache
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\ContactManage.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\ContactManage.Repository.AssemblyInfoInputs.cache
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\ContactManage.Repository.AssemblyInfo.cs
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\ContactManage.Repository.csproj.CoreCompileInputs.cache
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\ContactManage.Repository.dll
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\refint\ContactManage.Repository.dll
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\ContactManage.Repository.pdb
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\ContactManage.Repository.genruntimeconfig.cache
+C:\Project\ContactManage1\ContactManage.Repository\obj\Debug\net8.0\ref\ContactManage.Repository.dll
