@@ -1,5 +1,4 @@
-﻿using ContactManage.Repository.Models;
-using ContactManage.Services;
+﻿using ContactManage.Services.Interface;
 using ContactManagment.Dto;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -9,6 +8,7 @@ namespace ContactManage.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ContactsController : ControllerBase
     {
         private readonly IContactService _service;
@@ -19,11 +19,11 @@ namespace ContactManage.WebAPI.Controllers
         }
 
         [HttpPost("AddContact")]
-        public async Task<IActionResult> AddContact([FromBody] ContactDto contact)
+        public async Task<IActionResult> AddContact([FromBody] CreateContactDto contact)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
-            
+
             var created = await _service.AddContact(contact);
             return Ok(created);
         }
@@ -56,12 +56,7 @@ namespace ContactManage.WebAPI.Controllers
 
             return NoContent();
         }
-        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
-        [HttpGet("TestAuth")]
-        public IActionResult TestAuth()
-        {
-            return Ok(new { Message = "JWT works!" });
-        }
+       
 
     }
 }

@@ -1077,40 +1077,6 @@
           }
         }
       },
-      "MySqlConnector/2.4.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2",
-          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
-        },
-        "compile": {
-          "lib/net8.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/MySqlConnector.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Pomelo.EntityFrameworkCore.MySql/9.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "[9.0.0, 9.0.999]",
-          "MySqlConnector": "2.4.0"
-        },
-        "compile": {
-          "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.Buffers/4.6.0": {
         "type": "package",
         "compile": {
@@ -1607,8 +1573,7 @@
           "Microsoft.AspNetCore.Identity": "2.3.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.9",
-          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9",
-          "Pomelo.EntityFrameworkCore.MySql": "9.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.9"
         },
         "compile": {
           "bin/placeholder/ContactManage.Repository.dll": {}
@@ -2984,50 +2949,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MySqlConnector/2.4.0": {
-      "sha512": "78M+gVOjbdZEDIyXQqcA7EYlCGS3tpbUELHvn6638A2w0pkPI625ixnzsa5staAd3N9/xFmPJtkKDYwsXpFi/w==",
-      "type": "package",
-      "path": "mysqlconnector/2.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net462/MySqlConnector.dll",
-        "lib/net462/MySqlConnector.xml",
-        "lib/net471/MySqlConnector.dll",
-        "lib/net471/MySqlConnector.xml",
-        "lib/net48/MySqlConnector.dll",
-        "lib/net48/MySqlConnector.xml",
-        "lib/net6.0/MySqlConnector.dll",
-        "lib/net6.0/MySqlConnector.xml",
-        "lib/net8.0/MySqlConnector.dll",
-        "lib/net8.0/MySqlConnector.xml",
-        "lib/net9.0/MySqlConnector.dll",
-        "lib/net9.0/MySqlConnector.xml",
-        "lib/netstandard2.0/MySqlConnector.dll",
-        "lib/netstandard2.0/MySqlConnector.xml",
-        "lib/netstandard2.1/MySqlConnector.dll",
-        "lib/netstandard2.1/MySqlConnector.xml",
-        "logo.png",
-        "mysqlconnector.2.4.0.nupkg.sha512",
-        "mysqlconnector.nuspec"
-      ]
-    },
-    "Pomelo.EntityFrameworkCore.MySql/9.0.0": {
-      "sha512": "cl7S4s6CbJno0LjNxrBHNc2xxmCliR5i40ATPZk/eTywVaAbHCbdc9vbGc3QThvwGjHqrDHT8vY9m1VF/47o0g==",
-      "type": "package",
-      "path": "pomelo.entityframeworkcore.mysql/9.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "icon.png",
-        "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.dll",
-        "lib/net8.0/Pomelo.EntityFrameworkCore.MySql.xml",
-        "pomelo.entityframeworkcore.mysql.9.0.0.nupkg.sha512",
-        "pomelo.entityframeworkcore.mysql.nuspec"
-      ]
-    },
     "System.Buffers/4.6.0": {
       "sha512": "lN6tZi7Q46zFzAbRYXTIvfXcyvQQgxnY7Xm6C6xQ9784dEL1amjM6S6Iw4ZpsvesAKnRVsM4scrDQaDqSClkjA==",
       "type": "package",
@@ -4069,11 +3990,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\ContactManage1\\ContactManage.Services\\ContactManage.Services.csproj",
+      "projectUniqueName": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\ContactManage.Services.csproj",
       "projectName": "ContactManage.Services",
-      "projectPath": "C:\\Project\\ContactManage1\\ContactManage.Services\\ContactManage.Services.csproj",
+      "projectPath": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\ContactManage.Services.csproj",
       "packagesPath": "C:\\Users\\archa\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\ContactManage1\\ContactManage.Services\\obj\\",
+      "outputPath": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4094,11 +4015,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Project\\ContactManage1\\ContactManage.Repository\\ContactManage.Repository.csproj": {
-              "projectPath": "C:\\Project\\ContactManage1\\ContactManage.Repository\\ContactManage.Repository.csproj"
+            "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\ContactManage.Repository.csproj": {
+              "projectPath": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\ContactManage.Repository.csproj"
             },
-            "C:\\Project\\ContactManage1\\ContactManagment.Dto\\ContactManagment.Dto.csproj": {
-              "projectPath": "C:\\Project\\ContactManage1\\ContactManagment.Dto\\ContactManagment.Dto.csproj"
+            "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj": {
+              "projectPath": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj"
             }
           }
         }

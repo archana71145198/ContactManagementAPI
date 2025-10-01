@@ -17,16 +17,6 @@
   },
   {
     "ContainingType": "ContactManage.WebAPI.Controllers.AccountController",
-    "Method": "Logout",
-    "RelativePath": "api/Account/Logout",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ContactManage.WebAPI.Controllers.AccountController",
     "Method": "Register",
     "RelativePath": "api/Account/Register",
     "HttpMethod": "POST",
@@ -51,7 +41,7 @@
     "Parameters": [
       {
         "Name": "contact",
-        "Type": "ContactManagment.Dto.ContactDto",
+        "Type": "ContactManagment.Dto.CreateContactDto",
         "IsRequired": true
       }
     ],
@@ -77,16 +67,6 @@
     "ContainingType": "ContactManage.WebAPI.Controllers.ContactsController",
     "Method": "GetAllContacts",
     "RelativePath": "api/Contacts/GetAllContacts",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "ContactManage.WebAPI.Controllers.ContactsController",
-    "Method": "TestAuth",
-    "RelativePath": "api/Contacts/TestAuth",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

@@ -1,14 +1,9 @@
 ﻿using ContactManage.Repository.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ContactManage.Repository
 {
-    public class ContactRepository
+    public class ContactRepository : IContactRepository
     {
         private readonly AppDbContext _context;
 

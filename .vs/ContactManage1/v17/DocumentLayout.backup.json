@@ -1,0 +1,296 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Project\\Github\\ContactManagementAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96BB6D86-B4E9-45E6-9D4F-65F87EDC15B0}|ContactManage.WebAPI\\ContactManage.WebAPI.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96BB6D86-B4E9-45E6-9D4F-65F87EDC15B0}|ContactManage.WebAPI\\ContactManage.WebAPI.csproj|solutionrelative:contactmanage.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|solutionrelative:contactmanage.services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.services\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|solutionrelative:contactmanage.services\\interface\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BB6D86-B4E9-45E6-9D4F-65F87EDC15B0}|ContactManage.WebAPI\\ContactManage.WebAPI.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.webapi\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96BB6D86-B4E9-45E6-9D4F-65F87EDC15B0}|ContactManage.WebAPI\\ContactManage.WebAPI.csproj|solutionrelative:contactmanage.webapi\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BB6D86-B4E9-45E6-9D4F-65F87EDC15B0}|ContactManage.WebAPI\\ContactManage.WebAPI.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96BB6D86-B4E9-45E6-9D4F-65F87EDC15B0}|ContactManage.WebAPI\\ContactManage.WebAPI.csproj|solutionrelative:contactmanage.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BB6D86-B4E9-45E6-9D4F-65F87EDC15B0}|ContactManage.WebAPI\\ContactManage.WebAPI.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96BB6D86-B4E9-45E6-9D4F-65F87EDC15B0}|ContactManage.WebAPI\\ContactManage.WebAPI.csproj|solutionrelative:contactmanage.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33788B3-E483-495A-8BA6-8085D71DA2D2}|ContactManagment.Dto\\ContactManagment.Dto.csproj|c:\\project\\github\\contactmanagementapi\\contactmanagment.dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33788B3-E483-495A-8BA6-8085D71DA2D2}|ContactManagment.Dto\\ContactManagment.Dto.csproj|solutionrelative:contactmanagment.dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33788B3-E483-495A-8BA6-8085D71DA2D2}|ContactManagment.Dto\\ContactManagment.Dto.csproj|c:\\project\\github\\contactmanagementapi\\contactmanagment.dto\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33788B3-E483-495A-8BA6-8085D71DA2D2}|ContactManagment.Dto\\ContactManagment.Dto.csproj|solutionrelative:contactmanagment.dto\\contactdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33788B3-E483-495A-8BA6-8085D71DA2D2}|ContactManagment.Dto\\ContactManagment.Dto.csproj|c:\\project\\github\\contactmanagementapi\\contactmanagment.dto\\dtovalidators\\contactdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33788B3-E483-495A-8BA6-8085D71DA2D2}|ContactManagment.Dto\\ContactManagment.Dto.csproj|solutionrelative:contactmanagment.dto\\dtovalidators\\contactdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|solutionrelative:contactmanage.services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.services\\contactprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|solutionrelative:contactmanage.services\\contactprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.services\\interface\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E91405BB-CD75-4948-A647-41897AEB8E45}|ContactManage.Services\\ContactManage.Services.csproj|solutionrelative:contactmanage.services\\interface\\icontactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5C83A0-B4C7-4DDE-A1F4-A0D1FB3E678E}|ContactManage.Repository\\ContactManage.Repository.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.repository\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5C83A0-B4C7-4DDE-A1F4-A0D1FB3E678E}|ContactManage.Repository\\ContactManage.Repository.csproj|solutionrelative:contactmanage.repository\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5C83A0-B4C7-4DDE-A1F4-A0D1FB3E678E}|ContactManage.Repository\\ContactManage.Repository.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.repository\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5C83A0-B4C7-4DDE-A1F4-A0D1FB3E678E}|ContactManage.Repository\\ContactManage.Repository.csproj|solutionrelative:contactmanage.repository\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5C83A0-B4C7-4DDE-A1F4-A0D1FB3E678E}|ContactManage.Repository\\ContactManage.Repository.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.repository\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5C83A0-B4C7-4DDE-A1F4-A0D1FB3E678E}|ContactManage.Repository\\ContactManage.Repository.csproj|solutionrelative:contactmanage.repository\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A5C83A0-B4C7-4DDE-A1F4-A0D1FB3E678E}|ContactManage.Repository\\ContactManage.Repository.csproj|c:\\project\\github\\contactmanagementapi\\contactmanage.repository\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A5C83A0-B4C7-4DDE-A1F4-A0D1FB3E678E}|ContactManage.Repository\\ContactManage.Repository.csproj|solutionrelative:contactmanage.repository\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "ContactManage.Services\\TokenService.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\TokenService.cs",
+              "RelativeToolTip": "ContactManage.Services\\TokenService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:53:18.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "ContactManagment.Dto\\RegisterDto.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\RegisterDto.cs",
+              "RelativeToolTip": "ContactManagment.Dto\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:28:41.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactDto.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactDto.cs",
+              "RelativeDocumentMoniker": "ContactManagment.Dto\\ContactDto.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactDto.cs",
+              "RelativeToolTip": "ContactManagment.Dto\\ContactDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:28:31.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContactDtoValidator.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\DtoValidators\\ContactDtoValidator.cs",
+              "RelativeDocumentMoniker": "ContactManagment.Dto\\DtoValidators\\ContactDtoValidator.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\DtoValidators\\ContactDtoValidator.cs",
+              "RelativeToolTip": "ContactManagment.Dto\\DtoValidators\\ContactDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:28:18.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.WebAPI\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "ContactManage.WebAPI\\Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.WebAPI\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "ContactManage.WebAPI\\Controllers\\ContactsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:17:48.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.WebAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ContactManage.WebAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.WebAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ContactManage.WebAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAACsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T12:13:17.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\ContactService.cs",
+              "RelativeDocumentMoniker": "ContactManage.Services\\ContactService.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\ContactService.cs",
+              "RelativeToolTip": "ContactManage.Services\\ContactService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T11:46:36.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ContactProfile.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\ContactProfile.cs",
+              "RelativeDocumentMoniker": "ContactManage.Services\\ContactProfile.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\ContactProfile.cs",
+              "RelativeToolTip": "ContactManage.Services\\ContactProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T11:46:23.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IContactService.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\Interface\\IContactService.cs",
+              "RelativeDocumentMoniker": "ContactManage.Services\\Interface\\IContactService.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\Interface\\IContactService.cs",
+              "RelativeToolTip": "ContactManage.Services\\Interface\\IContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T11:45:49.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "ContactManage.Repository\\IContactRepository.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\IContactRepository.cs",
+              "RelativeToolTip": "ContactManage.Repository\\IContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:25:00.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "ContactManage.Repository\\Models\\Contact.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\Models\\Contact.cs",
+              "RelativeToolTip": "ContactManage.Repository\\Models\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:24:13.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ContactManage.Repository\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "ContactManage.Repository\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:21:12.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\Interface\\ITokenService.cs",
+              "RelativeDocumentMoniker": "ContactManage.Services\\Interface\\ITokenService.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Services\\Interface\\ITokenService.cs",
+              "RelativeToolTip": "ContactManage.Services\\Interface\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T10:01:46.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ContactManage.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.WebAPI\\Program.cs",
+              "RelativeToolTip": "ContactManage.WebAPI\\Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:45:45.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ContactManage.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.WebAPI\\appsettings.json",
+              "RelativeToolTip": "ContactManage.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-30T09:45:26.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\ContactRepository.cs",
+              "RelativeDocumentMoniker": "ContactManage.Repository\\ContactRepository.cs",
+              "ToolTip": "C:\\Project\\Github\\ContactManagementAPI\\ContactManage.Repository\\ContactRepository.cs",
+              "RelativeToolTip": "ContactManage.Repository\\ContactRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T09:44:22.256Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

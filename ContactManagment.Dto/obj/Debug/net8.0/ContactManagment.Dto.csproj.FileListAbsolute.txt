@@ -10,3 +10,16 @@ C:\Project\ContactManage1\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment
 C:\Project\ContactManage1\ContactManagment.Dto\obj\Debug\net8.0\refint\ContactManagment.Dto.dll
 C:\Project\ContactManage1\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment.Dto.pdb
 C:\Project\ContactManage1\ContactManagment.Dto\obj\Debug\net8.0\ref\ContactManagment.Dto.dll
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\bin\Debug\net8.0\ContactManagment.Dto.deps.json
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\bin\Debug\net8.0\ContactManagment.Dto.dll
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\bin\Debug\net8.0\ContactManagment.Dto.pdb
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment.Dto.csproj.AssemblyReference.cache
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment.Dto.AssemblyInfoInputs.cache
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment.Dto.AssemblyInfo.cs
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment.Dto.csproj.CoreCompileInputs.cache
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment.Dto.sourcelink.json
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment.Dto.dll
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\refint\ContactManagment.Dto.dll
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\ContactManagment.Dto.pdb
+C:\Project\Github\ContactManagementAPI\ContactManagment.Dto\obj\Debug\net8.0\ref\ContactManagment.Dto.dll

@@ -1,7 +1,9 @@
 using ContactManage.Repository;
 using ContactManage.Repository.Models;
 using ContactManage.Services;
-using ContactManagment.Dto;
+using ContactManage.Services.Interface;
+using ContactManage.WebAPI;
+using ContactManagment.Dto.DtoValidators;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -24,8 +26,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 
 
-builder.Services.AddScoped<ContactRepository>();
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
 builder.Services.AddScoped<IContactService, ContactService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 
 builder.Services.AddControllers()
     .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<ContactDtoValidator>());
@@ -42,8 +45,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 .AddEntityFrameworkStores<AppDbContext>()
 .AddDefaultTokenProviders();
 
-// JWT Authentication
-var secretKey = Encoding.UTF8.GetBytes(configuration["JwtSettings:SecretKey"]);
+var secretKey = Encoding.UTF8.GetBytes(configuration["JwtSettings:SecretKey"]); 
 var issuer = configuration["JwtSettings:Issuer"];
 var audience = configuration["JwtSettings:Audience"];
 
@@ -64,8 +66,8 @@ builder.Services.AddAuthentication(options =>
         ValidIssuer = issuer,
         ValidateAudience = true,
         ValidAudience = audience,
-       /* ValidateLifetime = true,
-        ClockSkew = TimeSpan.Zero*/
+        /* ValidateLifetime = true,
+         ClockSkew = TimeSpan.Zero*/
     };
     options.Events = new JwtBearerEvents
     {
@@ -99,7 +101,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Name = "Authorization",
         Type = SecuritySchemeType.Http,
-        Scheme = "bearer", 
+        Scheme = "bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
         Description = "Enter 'Bearer' [space] and then your token.\r\nExample: \"Bearer eyJhbGciOiJI...\""

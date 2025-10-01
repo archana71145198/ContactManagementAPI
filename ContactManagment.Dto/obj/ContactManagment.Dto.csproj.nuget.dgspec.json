@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\ContactManage1\\ContactManagment.Dto\\ContactManagment.Dto.csproj": {}
+    "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj": {}
   },
   "projects": {
-    "C:\\Project\\ContactManage1\\ContactManagment.Dto\\ContactManagment.Dto.csproj": {
+    "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\ContactManage1\\ContactManagment.Dto\\ContactManagment.Dto.csproj",
+        "projectUniqueName": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj",
         "projectName": "ContactManagment.Dto",
-        "projectPath": "C:\\Project\\ContactManage1\\ContactManagment.Dto\\ContactManagment.Dto.csproj",
+        "projectPath": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj",
         "packagesPath": "C:\\Users\\archa\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\ContactManage1\\ContactManagment.Dto\\obj\\",
+        "outputPath": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
