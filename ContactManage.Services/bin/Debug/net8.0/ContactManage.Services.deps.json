@@ -995,6 +995,7 @@
       },
       "ContactManage.Repository/1.0.0": {
         "dependencies": {
+          "ContactManagment.Dto": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.3.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.9",

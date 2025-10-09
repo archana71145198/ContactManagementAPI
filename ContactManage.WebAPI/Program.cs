@@ -31,8 +31,11 @@ builder.Services.AddScoped<IContactService, ContactService>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 
 builder.Services.AddControllers()
-    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<ContactDtoValidator>());
-
+    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<ContactDtoValidator>())
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter());
+    });
 
 
 builder.Services.AddAutoMapper(typeof(ContactProfile));

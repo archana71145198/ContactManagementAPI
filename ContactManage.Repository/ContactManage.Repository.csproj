@@ -17,4 +17,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ContactManagment.Dto\ContactManagment.Dto.csproj" />
+  </ItemGroup>
+
 </Project>
