@@ -47,6 +47,19 @@
           }
         }
       },
+      "FluentValidation/12.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -2121,6 +2134,19 @@
             "rid": "win"
           }
         }
+      },
+      "ContactManagment.Dto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FluentValidation": "12.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ContactManagment.Dto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ContactManagment.Dto.dll": {}
+        }
       }
     }
   },
@@ -2161,6 +2187,21 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FluentValidation/12.0.0": {
+      "sha512": "8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "type": "package",
+      "path": "fluentvalidation/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.12.0.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -5771,10 +5812,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ContactManagment.Dto/1.0.0": {
+      "type": "project",
+      "path": "../ContactManagment.Dto/ContactManagment.Dto.csproj",
+      "msbuildProject": "../ContactManagment.Dto/ContactManagment.Dto.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "ContactManagment.Dto >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.3.1",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.9",
@@ -5813,7 +5860,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj": {
+              "projectPath": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

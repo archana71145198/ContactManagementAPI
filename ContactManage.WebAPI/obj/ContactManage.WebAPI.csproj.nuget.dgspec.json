@@ -31,7 +31,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj": {
+                "projectPath": "C:\\Project\\Github\\ContactManagementAPI\\ContactManagment.Dto\\ContactManagment.Dto.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

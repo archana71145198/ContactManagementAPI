@@ -98,6 +98,38 @@
         }
       }
     },
+    "/api/Contacts/GetPagedContacts": {
+      "get": {
+        "tags": [
+          "Contacts"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Contacts/GetAllContacts": {
       "get": {
         "tags": [
@@ -167,6 +199,18 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Contacts/GetLogInfo": {
+      "get": {
+        "tags": [
+          "Contacts"
         ],
         "responses": {
           "200": {

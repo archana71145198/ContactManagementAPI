@@ -75,6 +75,37 @@
   },
   {
     "ContainingType": "ContactManage.WebAPI.Controllers.ContactsController",
+    "Method": "GetAllLogs",
+    "RelativePath": "api/Contacts/GetLogInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactManage.WebAPI.Controllers.ContactsController",
+    "Method": "GetPagedContacts",
+    "RelativePath": "api/Contacts/GetPagedContacts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ContactManage.WebAPI.Controllers.ContactsController",
     "Method": "UpdateContact",
     "RelativePath": "api/Contacts/UpdateContact/{id}",
     "HttpMethod": "PUT",
