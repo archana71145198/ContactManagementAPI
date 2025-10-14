@@ -113,6 +113,10 @@ builder.Services.AddSwaggerGen(c =>
         Description = "Enter 'Bearer' [space] and then your token.\r\nExample: \"Bearer eyJhbGciOiJI...\""
     });
 
+    //changes for task4
+    //changes for task5
+    //changes for task6
+
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
