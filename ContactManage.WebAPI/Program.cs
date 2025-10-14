@@ -72,8 +72,9 @@ builder.Services.AddAuthentication(options =>
         /* ValidateLifetime = true,
          ClockSkew = TimeSpan.Zero*/
     };
-
-
+    //changes for task1
+    //changes for task2
+    //changes for task3
 
     options.Events = new JwtBearerEvents
     {
