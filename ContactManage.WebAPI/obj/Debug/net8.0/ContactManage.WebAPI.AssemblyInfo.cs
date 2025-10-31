@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContactManage.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb20b8c62da1bf804ea0d1b12c091da29397400e")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f2b67081f6a765b0eb7fbbb3ac43282d5733b0d")]
->>>>>>> Archana_task
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3430dd591790aa4c59b8353252e873b2d410003b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContactManage.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactManage.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

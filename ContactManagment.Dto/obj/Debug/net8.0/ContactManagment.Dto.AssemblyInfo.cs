@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ContactManagment.Dto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0baf03b6c494e182461dd8fbd6fb38b77af68cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3430dd591790aa4c59b8353252e873b2d410003b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ContactManagment.Dto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ContactManagment.Dto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
