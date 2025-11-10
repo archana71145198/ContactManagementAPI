@@ -11,10 +11,10 @@ namespace ContactManage.Repository.Models
     {
         public int Id { get; set; }               
         public int RecordId { get; set; }         
-        public ActionType Action { get; set; }  
-        public string AppName { get; set; } = "Contact API";
+        public ActionType? Action { get; set; }  
+        public string? AppName { get; set; } = "Contact API";
         public string? UserId { get; set; }   
-        public string UserName { get; set; }
+        public string? UserName { get; set; }
         public DateTime Timestamp { get; set; } = DateTime.Now;
     }
 }

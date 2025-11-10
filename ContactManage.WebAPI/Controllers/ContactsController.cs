@@ -1,6 +1,5 @@
 ﻿using ContactManage.Services.Interface;
 using ContactManagment.Dto;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -10,22 +9,18 @@ namespace ContactManage.WebAPI.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-    public class ContactsController : ControllerBase
+    public class ContactsController(IContactService service) : ControllerBase
     {
-        private readonly IContactService _service;
+        private readonly IContactService _service = service;
 
-        public ContactsController(IContactService service)
+        private string? GetLoggedUserId()
         {
-            _service = service;
-        }
-        private string GetLoggedUserId()
-        {
-            return User.FindFirst(ClaimTypes.NameIdentifier).Value;
+            return User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         }
 
-        private string GetLoggedUserEmail()
+        private string? GetLoggedUserEmail()
         {
-            return User.FindFirst(ClaimTypes.Email).Value;
+            return User.FindFirst(ClaimTypes.Email)?.Value;
         }
 
         [HttpPost("AddContact")]
@@ -37,7 +32,7 @@ namespace ContactManage.WebAPI.Controllers
             var userEmail = GetLoggedUserEmail();
 
 
-            var created = await _service.AddContact(contact, userId, userEmail);
+            var created = await _service.AddContact(contact, userId!, userEmail!);
             return Ok(created);
         }
         [HttpGet("GetPagedContacts")]
@@ -63,7 +58,7 @@ namespace ContactManage.WebAPI.Controllers
             var userId = GetLoggedUserId();
             var userEmail = GetLoggedUserEmail();
 
-            var updated = await _service.UpdateContact(contact, userId, userEmail);
+            var updated = await _service.UpdateContact(contact, userId!, userEmail!);
             if (updated == null)
                 return NotFound($"Contact with Id {id} not found");
 
@@ -74,7 +69,7 @@ namespace ContactManage.WebAPI.Controllers
         {
             var userId = GetLoggedUserId();
             var userEmail = GetLoggedUserEmail();
-            var deleted = await _service.DeleteContact(id, userId, userEmail);
+            var deleted = await _service.DeleteContact(id, userId!, userEmail!);
             if (!deleted)
                 return NotFound($"Contact with Id {id} not found");
 
